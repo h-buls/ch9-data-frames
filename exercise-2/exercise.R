@@ -4,15 +4,19 @@
 # Hint: use the `paste()` function and vector recycling to add a number to the word
 # "Employee"
 
+numbers <- 1:100
+Employees <- paste("Employee", numbers)
 
 # Create a vector of 100 random salaries for the year 2017
 # Use the `runif()` function to pick random numbers between 40000 and 50000
 
+salaries2017 <- runif(100, 40000, 50000)
 
 # Create a vector of 100 salaries in 2018 that have changed from 2017
 # Use `runif()` to add a random number between -5000 and 10000 to each of 2017's
 # salaries (the negative number means that a salary may have decreased!)
 
+salaries2018 <- runif(100,)
 
 # Create a data frame 'salaries' by combining the 3 vectors you just made
 # Remember to set `stringsAsFactors=FALSE`!
